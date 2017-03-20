@@ -62,7 +62,6 @@ if ( ! defined( 'WPINC' ) ) {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/ald-facil-shortcodes.php'; 
 	require_once plugin_dir_path( __FILE__ ) . 'includes/ald-facil-load-templates.php';
 
-
 /*----------------------------------------------------------------------------*
  * deactivation and uninstall
  *----------------------------------------------------------------------------*/
