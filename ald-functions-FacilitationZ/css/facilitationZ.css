@@ -21,15 +21,22 @@
 	padding-left: 30px; */
 }
 
-.ald-functions-gauche > .image-holder, .ald-functions-droite > .image-holder {
+.ald-functions-gauche > .image-holder, 
+.ald-functions-droite > .image-holder {
     width: 48%;
-    /* line-height: 200px; */
-    margin-top: -5px;
+}
+
+.ald-functions-gauche > .image-holder {
+	margin-left: 1%;
+}
+
+.ald-functions-droite > .image-holder {
+	margin-right: 1%;
 }
 
 .ald-functions-droite > .text-holder,
 .ald-functions-gauche > .text-holder  {
-	width: 52% ;
+	width: 51% ;
 }
 
 
@@ -49,6 +56,9 @@
 	max-width: 100%;
 	vertical-align: middle;	
 	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
 
 }
 
